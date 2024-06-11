@@ -1,14 +1,17 @@
 body {
-  background-color: #ffd5be;
-  color: #ff487e;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/684/original/pexels-nurseryart-346885.jpg?1718124776");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #2a2438;
+  background-color: #dde0ab;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
 }
 .container {
-  margin: 70px auto;
+  margin: 100px auto;
   padding-bottom: 10px;
   max-width: 600px;
-  background-color: #ffedff;
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
 }
 
@@ -18,7 +21,7 @@ header {
 
 h1 {
   font-weight: 800;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 1.5;
 }
 
@@ -26,13 +29,6 @@ h3 {
   font-weight: 400;
   font-size: 26px;
   line-height: 1;
-}
-
-img {
-  max-width: 100%;
-  width: 35%;
-  margin: auto;
-  display: block;
 }
 
 form {
@@ -43,19 +39,19 @@ form {
 }
 
 .empty-input {
-  color: #ffedff;
-  padding: 14px;
-  border: 2px solid #ffd5be;
+  color: #dbd8e3;
+  border: 2px solid #2a2438;
   border-radius: 30px;
   width: 70%;
   font-size: 16px;
   line-height: 20px;
+  padding: 14px;
 }
 
 .submit-button {
   margin-left: 10px;
-  color: #ff487e;
-  background: #ffd5be;
+  color: #dbd8e3;
+  background: #352f44;
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -68,8 +64,6 @@ form {
   font-size: 18px;
   padding: 20px;
   line-height: 2;
-  border-top: 2px solid #ff487e;
-  border-top-style: dashed;
 }
 
 footer {
@@ -78,5 +72,5 @@ footer {
 }
 
 a {
-  color: #ff9776;
+  color: #5c5470;
 }
