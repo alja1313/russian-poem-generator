@@ -15,20 +15,25 @@
         <h3>One day itinerary for your next trip 😎</h3>
       </header>
       <main>
-        <form id="travel-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a destination..."
-            autofocus
-            required
-            autocomplete="off"
-            class="empty-input"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="travel-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the destination..."
+              autofocus
+              required
+              autocomplete="off"
+              class="empty-input"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="for-example">
+            For example: Singapore, Rio de Janeiro, Florence etc.
+          </div>
+        </div>
 
-        <div class="ai-response" id="ai-response"></div>
+        <div class="ai-response hidden" id="ai-response"></div>
       </main>
 
       <footer>
