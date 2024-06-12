@@ -1,6 +1,4 @@
 function displayTravelPlan(response) {
-  console.log("Your Travel Plan is generated!");
-
   new Typewriter("#ai-response", {
     strings: response.data.answer,
     autoStart: true,
@@ -22,10 +20,6 @@ function generateTravelPlan(event) {
   let aiResponseElement = document.querySelector("#ai-response");
   aiResponseElement.classList.remove("hidden");
   aiResponseElement.innerHTML = `<div class="generating">⏳ Generating a travel plan in ${userInstructions.value}</div>`;
-
-  console.log("Generating Travel Itinerary");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: %{context}`);
 
   axios.get(apiUrl).then(displayTravelPlan);
 }
