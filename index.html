@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Travel Itinerary Generator</title>
   </head>
@@ -13,7 +14,7 @@
         <h3>One day itinerary for your next trip 😎</h3>
       </header>
       <main>
-        <form>
+        <form id="travel-generator-form">
           <input
             type="text"
             placeholder="Enter a destination..."
@@ -25,13 +26,9 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="ai-response">
-          For example:
-          <br />
-          Tokyo, Sri Lanka, Rio de Janeiro exc.
-        </div>
+        <div class="ai-response" id="ai-response"></div>
       </main>
-      <br />
+
       <footer>
         This AI project was coded by
         <a href="https://github.com/alja1313" target="_blank">Olga Slahota</a>.
@@ -49,6 +46,6 @@
       </footer>
     </div>
 
-    <script src="src/java.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
